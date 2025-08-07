@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import health  # keep as is if filename is verificaton.py
+from app.routers import users 
 
 app = FastAPI()
 
@@ -15,3 +16,4 @@ app.add_middleware(
 
 # Register routers
 app.include_router(health.router)
+app.include_router(users.router)

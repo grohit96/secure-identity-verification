@@ -6,7 +6,6 @@ fastapi==0.116.1
 h11==0.16.0
 httptools==0.6.4
 idna==3.10
-pydantic==2.11.7
 pydantic_core==2.33.2
 python-dotenv==1.1.1
 PyYAML==6.0.2
@@ -22,3 +21,5 @@ sqlalchemy
 psycopg2-binary
 alembic
 python-dotenv
+pydantic[email]==2.11.7
+passlib[bcrypt] 

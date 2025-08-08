@@ -23,3 +23,5 @@ alembic
 python-dotenv
 pydantic[email]==2.11.7
 passlib[bcrypt] 
+python-jose[cryptography]
+python-multipart
